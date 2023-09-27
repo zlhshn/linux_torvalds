@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    padding: 1px;
+}
+
+div.container{
+    background-color: rgb(99, 94, 94);
+    border-radius: 15px;
+   width: ;: 87vh;
+   margin: 25px 100px;
+   padding: 55px 20px;
+  text-align: center;
+}
+
+ /* header */
+ div.container h1{
+    font-family: 'Lobster Two', cursive;
+    font-weight: 900;
+    color: white;
+    opacity: 0.9;
+    font-size: 75px;
+
+   
+
+}
+
+div.container h1 span{
+    color: rgb(207, 14, 14);
+  font-style: italic;
+}
+/* img */
+
+div.container img{
+    width: 400px;
+    height:250px;
+    border-radius: 25px;
+    margin: 45px auto 20px auto;
+    box-shadow: 6px 2px 150px 46px  rgba(138, 14, 14, 0.6) ;
+}
+
+div.container .subtitle{
+    color: white;
+    font-weight: 5px;
+    margin-bottom: 20px;
+    margin-bottom: 20px;
+
+}
+
+div.container p{
+    color: white;
+    font-size: 25px;
+    text-align: justify;
+    padding: 30px;
+}
+
+div.container .subtitle{
+    color: white;
+    font-size: 15px;
+    margin-bottom: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    
+
+}
+
+div.container h3{
+    color: rgb(207, 14, 14);
+}
