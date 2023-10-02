@@ -12,12 +12,13 @@ body{
 }
 
 div.container{
-    background-color: rgb(99, 94, 94);
+    background-color: rgb(66, 65, 65);
     border-radius: 15px;
    width: ;: 87vh;
-   margin: 25px 100px;
-   padding: 55px 20px;
+   margin: 3.5rem  9rem;
+   padding: 4rem 2rem;
   text-align: center;
+  min-width: 600px;
 }
 
  /* header */
@@ -43,7 +44,7 @@ div.container img{
     height:250px;
     border-radius: 25px;
     margin: 45px auto 20px auto;
-    box-shadow: 6px 2px 150px 46px  rgba(138, 14, 14, 0.6) ;
+    box-shadow: 6px 2px 150px 46px  rgba(192, 12, 12, 0.6) ;
 }
 
 div.container .subtitle{
@@ -58,7 +59,8 @@ div.container p{
     color: white;
     font-size: 25px;
     text-align: justify;
-    padding: 30px;
+   margin: 3rem 5rem;
+    line-height: 2rem;
 }
 
 div.container .subtitle{
@@ -73,4 +75,33 @@ div.container .subtitle{
 
 div.container h3{
     color: rgb(207, 14, 14);
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin: 2rem 4rem;
+}
+
+div.container ul{
+    list-style-position: inside;
+    color: white;
+    line-height: 3rem;
+    text-align: left;
+    font-size: 1.5rem;
+    margin:2rem 4rem;
+}
+
+div.container .son{
+    margin-left: 15rem;
+       
+}
+
+div.container .son a{
+    margin-left: 3rem;
+    padding: 10px;
+    border: 2px solid darkgoldenrod;
+    border-radius: 30%;
+    background-color: black;
+    color: white;
+
 }
