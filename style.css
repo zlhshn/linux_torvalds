@@ -6,6 +6,7 @@
     box-sizing: border-box;
 }
 
+
 body{
     background-color: black;
     padding: 1px;
@@ -14,11 +15,11 @@ body{
 div.container{
     background-color: rgb(66, 65, 65);
     border-radius: 15px;
-   width: ;: 87vh;
-   margin: 3.5rem  9rem;
-   padding: 4rem 2rem;
+  
+   margin: 3.5rem  10rem;
+   padding: 4rem 2.5rem;
   text-align: center;
-  min-width: 600px;
+ 
 }
 
  /* header */
@@ -43,7 +44,7 @@ div.container img{
     width: 400px;
     height:250px;
     border-radius: 25px;
-    margin: 45px auto 20px auto;
+    margin: 45px auto 0px auto;
     box-shadow: 6px 2px 150px 46px  rgba(192, 12, 12, 0.6) ;
 }
 
@@ -51,7 +52,7 @@ div.container .subtitle{
     color: white;
     font-weight: 5px;
     margin-bottom: 20px;
-    margin-bottom: 20px;
+    
 
 }
 
@@ -80,6 +81,8 @@ div.container h3{
     font-size: 1.5rem;
     font-weight: 900;
     margin: 2rem 4rem;
+    font-style: italic;
+    font-family: 'Lobster Two', cursive;
 }
 
 div.container ul{
@@ -92,16 +95,28 @@ div.container ul{
 }
 
 div.container .son{
-    margin-left: 15rem;
+    margin-left: 17rem;
+    font-size: 2rem;
+   
        
 }
 
 div.container .son a{
-    margin-left: 3rem;
-    padding: 10px;
+    margin-left: 1rem;
+    padding: 15px;
     border: 2px solid darkgoldenrod;
-    border-radius: 30%;
+    border-radius: 20px;
     background-color: black;
     color: white;
+    text-decoration: none;
+    letter-spacing: 1px;
+    
 
+}
+
+
+div.container .son a:hover{
+    background-color: rgb(80, 78, 78);
+    color: red;
+    font-size: 900;
 }
