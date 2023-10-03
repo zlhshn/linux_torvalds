@@ -1,1 +1,4 @@
-**Project about Linux Torvald and page created with HTML and basic CSS**
+# linux_torvalds
+## Project Aim
+
+*Project about Linux Torvalds and page created with HTML and basic CSS*
